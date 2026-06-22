@@ -1,18 +1,35 @@
-# EASY CRUD – 3 Tier Docker App
+# EASY CRUD – 3 Tier Application Deployment
+
+A full-stack **3-tier CRUD application** built using **React, Node.js, MySQL** and containerized using **Docker Compose**.  
+This project demonstrates real-world full-stack development with backend APIs, frontend UI, database integration, and container orchestration.
+
+---
 
 ## Tech Stack
-- React (Frontend)
-- Node.js + Express (Backend)
-- MySQL (Database)
-- Docker & Docker Compose
 
-## Features
+- Frontend: React.js
+- Backend: Node.js, Express.js
+- Database: MySQL
+- Containerization: Docker, Docker Compose
+- Version Control: Git, GitHub
+
+---
+
+## ⚙️ Features
+
 - Add Employee
 - View Employees
 - REST API integration
-- Dockerized full stack system
+- MySQL database persistence
+- Fully containerized system using Docker
+- Environment-based configuration
 
-## Run Project
+---
+
+## How to Run the Project
+
+###  Clone the repository
 
 ```bash
-docker compose up --build
+git clone https://github.com/YOUR_USERNAME/EASY-CRUD-3-Tier-Application-Deployment.git
+cd EASY-CRUD-3-Tier-Application-Deployment
