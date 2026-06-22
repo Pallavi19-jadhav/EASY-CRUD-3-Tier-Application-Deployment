@@ -26,6 +26,11 @@ This project demonstrates real-world full-stack development with backend APIs, f
 
 ---
 
+<<<<<<< HEAD
+=======
+## How to Run the Project
+
+>>>>>>> 3e3c571263de2e87343f94cb9d20de5df29d2a14
 ###  Clone the repository
 
 ```bash
