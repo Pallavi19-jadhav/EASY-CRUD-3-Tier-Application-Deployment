@@ -36,3 +36,7 @@ This project demonstrates real-world full-stack development with backend APIs, f
 ```bash
 git clone https://github.com/YOUR_USERNAME/EASY-CRUD-3-Tier-Application-Deployment.git
 cd EASY-CRUD-3-Tier-Application-Deployment
+
+## Application Screenshot
+
+![App](screenshots/app.png)
