@@ -33,11 +33,19 @@ app.post("/employees", (req, res) => {
 });
 
 // GET API
-console.log("REGISTERING EMPLOYEES GET ROUTE");
 app.get("/employees", (req, res) => {
-  console.log("EMPLOYEES ROUTE HIT");
-  res.send("EMPLOYEES ROUTE WORKING");
+  const sql = "SELECT * FROM employees";
+
+  db.query(sql, (err, result) => {
+    if (err) {
+      console.log(err);
+      return res.status(500).send("Error fetching employees");
+    }
+
+    res.json(result);
+  });
 });
+
 
 // Start Server (IMPORTANT FIX HERE)
 const PORT = 5000;

@@ -8,12 +8,17 @@ services:
       - "5000:5000"
     depends_on:
       - mysql
+    environment:
+      DB_HOST: mysql
+      DB_USER: root
+      DB_PASSWORD: root123
+      DB_NAME: cruddb
 
   postmanfrontend:
     build: ./frontend
     ports:
       - "3000:3000"
-      
+
   mysql:
     image: mysql:8
     container_name: mysql-container
@@ -22,4 +27,4 @@ services:
       MYSQL_ROOT_PASSWORD: root123
       MYSQL_DATABASE: cruddb
     ports:
-      - "3306:3306"          
+      - "3306:3306"
